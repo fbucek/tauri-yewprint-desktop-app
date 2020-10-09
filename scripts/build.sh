@@ -23,7 +23,7 @@ yarn install
 info "Build tauri app"
 # Have to remove binary in order to rebuild
 rm -f ${CARGO_TARGET_DIR}/release/tauriapp
-yarn tauri build -v
+yarn tauri build
 
 info "Run tauri app"
 ${CARGO_TARGET_DIR}/release/tauriapp
