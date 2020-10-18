@@ -1,5 +1,7 @@
 .PHONY: dev yewprint-doc tauri run
 
+all: yewprint-doc run
+
 # Deploy yewprint-doc to public folder
 yewprint-doc:
 	cd yewprint && ./build.sh

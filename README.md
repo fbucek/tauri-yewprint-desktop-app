@@ -20,7 +20,7 @@ Application is using:
 
 ## How to run
 
-- `make run` -> see Makefile for details
+- `make` -> see Makefile for details
 
 ## Requirements
 
